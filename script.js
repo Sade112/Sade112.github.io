@@ -3,7 +3,7 @@
 
 (function($) { "use strict";
 		
-	//Page cursors
+	//Cursores Pagina
 
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
         t.style.left = n.clientX + "px", 
@@ -31,7 +31,7 @@
     }
 
 	
-	//About page
+	//Pagina Sobre mi
 	
 	$(".about-text").on('click', function () {
 		$("body").addClass("about-on");
@@ -41,7 +41,7 @@
 	});
 
 	
-	//Contact page
+	//Página de contacto
 	
 	$(".contact-text").on('click', function () {
 		$("body").addClass("contact-on");
@@ -51,7 +51,7 @@
 	});
 
 	
-	//Travel portfolio page
+	//Front end
 	
 	$(".travel").on('click', function () {
 		$("body").addClass("travel-on");
@@ -61,7 +61,7 @@
 	});
 
 	
-	//Wildlife portfolio page
+	//CMS
 	
 	$(".wildlife").on('click', function () {
 		$("body").addClass("wildlife-on");
@@ -71,7 +71,7 @@
 	});
 
 	
-	//Nature portfolio page
+	//Diseño
 	
 	$(".nature").on('click', function () {
 		$("body").addClass("nature-on");
